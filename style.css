@@ -1,0 +1,35 @@
+body{
+   background-color: aqua;
+}
+.section-title{
+    font-size: 4rem;
+}
+.card-section{
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    grid-gap: 20px;
+}
+.card{
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: white;
+}
+.card img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px
+}
+.card-desc{
+    padding: 15px 10px;
+}
+.card-desc p{
+    text-align: justify;
+}
+.card-footer{
+   display: flex;
+}
+.card-footer button{
+   margin-left: 150px;
+   height: 30px;
+  margin-top: 20px;
+}
